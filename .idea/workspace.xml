@@ -1,19 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6cef4b26-c7b4-4b3c-b1ac-b8b731de018e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/abstractFactory/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/abstractFactory/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/abstractFactory/CarType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/abstractFactory/DefaultCarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/abstractFactory/IndiaCarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/abstractFactory/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/abstractFactory/LuxuryCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/abstractFactory/MicroCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/abstractFactory/MiniCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/abstractFactory/UsaCarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/builder/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/factoryMethod/EmailNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/factoryMethod/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/factoryMethod/NotificationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/factoryMethod/PushNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/factoryMethod/SmsNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/prototype/BlackColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/prototype/BlueColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/prototype/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/prototype/ColorStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/singleton/Singleton1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/singleton/Singleton2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/singleton/Singleton3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/criacao/singleton/Singleton4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="246eUjw4L9QDtg3ci7jX7lsTQh8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,6 +72,25 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gof.criacao.singleton" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="padraoDeProjeto" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
