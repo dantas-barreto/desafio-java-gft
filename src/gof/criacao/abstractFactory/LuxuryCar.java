@@ -2,7 +2,7 @@ package gof.criacao.abstractFactory;
 
 public class LuxuryCar extends Car {
 
-    LuxuryCar(Location location) {
+    public LuxuryCar(Location location) {
         super(CarType.LUXURY, location);
         construct();
     }

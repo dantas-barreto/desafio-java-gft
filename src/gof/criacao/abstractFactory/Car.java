@@ -1,5 +1,8 @@
 package gof.criacao.abstractFactory;
 
+import gof.criacao.abstractFactory.CarType;
+import gof.criacao.abstractFactory.Location;
+
 public abstract class Car {
 
     Car(CarType model, Location location) {
