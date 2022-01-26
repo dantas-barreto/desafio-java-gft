@@ -1,3 +1,20 @@
+import gof.comportamental.chainOfResponsability.Chain;
+import gof.comportamental.chainOfResponsability.Number;
+import gof.comportamental.command.*;
+import gof.comportamental.interpreter.AndExpression;
+import gof.comportamental.interpreter.Expression;
+import gof.comportamental.interpreter.OrExpression;
+import gof.comportamental.interpreter.TerminalExpression;
+import gof.comportamental.iterator.NotificationBar;
+import gof.comportamental.iterator.NotificationCollection;
+import gof.comportamental.mediator.ATCMediator;
+import gof.comportamental.mediator.Flight;
+import gof.comportamental.mediator.IATCMediator;
+import gof.comportamental.mediator.Runway;
+import gof.comportamental.memento.Life;
+import gof.comportamental.observer.AverageScoreDisplay;
+import gof.comportamental.observer.CricketData;
+import gof.comportamental.observer.CurrentScoreDisplay;
 import gof.criacao.abstractFactory.CarFactory;
 import gof.criacao.abstractFactory.CarType;
 import gof.criacao.abstractFactory.Location;
@@ -31,7 +48,10 @@ import gof.estrutural.facade.VegMenu;
 import gof.estrutural.proxy.Internet;
 import gof.estrutural.proxy.ProxyInternet;
 
-import java.util.Random;
+import java.time.temporal.ChronoUnit;
+import java.util.ArrayList;
+import java.util.Currency;
+import java.util.List;
 
 public class Main {
 
@@ -186,5 +206,102 @@ public class Main {
         }
 
         System.out.println();
+
+        System.out.println("=== Início dos Padrões de Projeto Comportamentais ===");
+
+        System.out.println();
+
+        // Chain of Responsability
+        Chain chain = new Chain();
+
+        chain.process(new Number(90));
+        chain.process(new Number(-50));
+        chain.process(new Number(0));
+        chain.process(new Number(91));
+
+        System.out.println();
+
+        // Command
+        SimpleRemoteControl remote = new SimpleRemoteControl();
+        Light light = new Light();
+        Stereo stereo = new Stereo();
+
+        remote.setCommand(new LightOnCommand(light));
+        remote.buttonWasPressed();
+
+        remote.setCommand(new StereoOnWithCDCommand(stereo));
+        remote.buttonWasPressed();
+
+        remote.setCommand(new StereoOffCommand(stereo));
+        remote.buttonWasPressed();
+
+        System.out.println();
+
+        // Interpreter
+        Expression person1 = new TerminalExpression("João");
+        Expression person2 = new TerminalExpression("Pedro");
+        Expression isSingle = new OrExpression(person1, person2);
+
+        Expression git = new TerminalExpression("git");
+        Expression commit = new TerminalExpression("commit");
+        Expression isCommit = new AndExpression(git, commit);
+
+        System.out.println(isSingle.interpreter("João"));
+        System.out.println(isSingle.interpreter("Pedro"));
+        System.out.println(isSingle.interpreter("Barreto"));
+
+        System.out.println(isCommit.interpreter("commit, git"));
+        System.out.println(isCommit.interpreter("Pedro, git"));
+
+        System.out.println();
+
+        // Iterator
+        NotificationCollection nc = new NotificationCollection();
+        NotificationBar nb = new NotificationBar(nc);
+        nb.printNotifications();
+
+        System.out.println();
+
+        // Mediator
+        IATCMediator atcMediator = new ATCMediator();
+        Flight sparrow101 = new Flight(atcMediator);
+        Runway mainRunway = new Runway(atcMediator);
+        atcMediator.registerFlight(sparrow101);
+        atcMediator.registerRunWay(mainRunway);
+        sparrow101.getReady();
+        mainRunway.land();
+        sparrow101.land();
+
+        System.out.println();
+
+        // Memento
+        List<Life.Memento> savedTimes = new ArrayList<>();
+
+        Life life = new Life();
+
+        life.set("1000 B.C.");
+        savedTimes.add(life.saveToMemento());
+        life.set("1000 A.C.");
+        savedTimes.add(life.saveToMemento());
+        life.set("2000 A.C.");
+        savedTimes.add(life.saveToMemento());
+        life.set("4000 A.C.");
+        savedTimes.add(life.saveToMemento());
+
+        life.restoreFromMemento(savedTimes.get(0));
+
+        System.out.println();
+
+        // Observer
+        AverageScoreDisplay averageScoreDisplay = new AverageScoreDisplay();
+        CurrentScoreDisplay currentScoreDisplay = new CurrentScoreDisplay();
+
+        CricketData cricketData = new CricketData(currentScoreDisplay, averageScoreDisplay);
+
+        cricketData.dataChanged();
+
+        System.out.println();
+
+        System.out.println("Fim das demonstrações de Padrões de Projeto...");
     }
 }

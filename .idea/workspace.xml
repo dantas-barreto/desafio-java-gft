@@ -4,50 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cef4b26-c7b4-4b3c-b1ac-b8b731de018e" name="Changes" comment="create creation design patterns">
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/Flyweight/CounterStrike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/Flyweight/CounterTerrorist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/Flyweight/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/Flyweight/PlayerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/Flyweight/Terrorist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/adapter/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/adapter/BirdAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/adapter/PlasticToyDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/adapter/Sparrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/adapter/ToyDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/bridge/Assemble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/bridge/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/bridge/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/bridge/Produce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/bridge/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/bridge/Workshop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/composite/CompanyDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/composite/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/composite/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/composite/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/decorator/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/decorator/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/decorator/RedShapeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/decorator/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/decorator/ShapeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/facade/Both.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/facade/Hotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/facade/HotelKeeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/facade/Menus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/facade/NonVegMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/facade/NonVegRestaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/facade/VegMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/facade/VegNonBothRestaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/facade/VegRestaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/proxy/Internet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/proxy/ProxyInternet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/gof/estrutural/proxy/RealInternet.java" afterDir="false" />
+    <list default="true" id="6cef4b26-c7b4-4b3c-b1ac-b8b731de018e" name="Changes" comment="create structural design patterns">
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/chainOfResponsability/Chain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/chainOfResponsability/NegativeProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/chainOfResponsability/Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/chainOfResponsability/PositiveProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/chainOfResponsability/Processor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/chainOfResponsability/ZeroProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/command/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/command/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/command/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/command/SimpleRemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/command/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/command/StereoOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/command/StereoOnWithCDCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/interpreter/AndExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/interpreter/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/interpreter/OrExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/interpreter/TerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/iterator/Collection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/iterator/Iterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/iterator/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/iterator/NotificationBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/iterator/NotificationCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/iterator/NotificationIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/mediator/ATCMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/mediator/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/mediator/Flight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/mediator/IATCMediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/mediator/Runway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/memento/Life.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/observer/AverageScoreDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/observer/CricketData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gof/comportamental/observer/CurrentScoreDisplay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gof/criacao/abstractFactory/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gof/criacao/abstractFactory/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gof/criacao/abstractFactory/LuxuryCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gof/criacao/abstractFactory/LuxuryCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gof/criacao/abstractFactory/MicroCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gof/criacao/abstractFactory/MicroCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gof/criacao/abstractFactory/MiniCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gof/criacao/abstractFactory/MiniCar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +83,11 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="gof.comportamental.chainOfResponsability" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gof.comportamental.command" />
       <recent name="gof.estrutural.bridge" />
       <recent name="gof.criacao.singleton" />
     </key>
@@ -126,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642971409503</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create structural design patterns">
+      <created>1643027307525</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643027307525</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +145,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create creation design patterns" />
-    <option name="LAST_COMMIT_MESSAGE" value="create creation design patterns" />
+    <MESSAGE value="create structural design patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="create structural design patterns" />
   </component>
 </project>
